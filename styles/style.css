@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: #333333;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    min-width: 40px;
+    max-width: 300px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    }
+
+.nav-links a {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.nav-links a:hover {
+    color: rgb(205, 187, 179);
+}
+
+.nav-links {
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+ul {
+ display: flex;
+ text-decoration: none;
+ list-style: none;
+}
+
+.subh h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    text-transform: uppercase;
+    letter-spacing: 0.091rem;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    text-align: center;
+    margin: auto;
+    min-width: 100px;
+    max-width: 1290px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;        
+    
+}
+
+ p {
+    font-size: 19px;
+    color: rgb(94, 94, 94);
+    font-weight: lighter;
+}
+
+.coloumns a {
+    text-decoration: underline;
+    color: rgb(94, 94, 94);
+}
+
+.coloumns a:hover {
+    color: rgb(79, 69, 63); 
+}
+
+.section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.table2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.coloumn2 img {
+    position: relative;
+    left: 150px;
+    top: 20px;
+    margin: auto;
+    width: 600px;
+
+}
+
+.text {
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 1000px;
+    font-size: 18px;
+}
+
+.text h2 {
+    text-align: center;
+}
+
+.text p {
+    margin-top: 30px;
+    margin-right: 90px;
+    margin-left: 50px;
+}
+
+.text a {
+    text-decoration: underline;
+    color: rgb(94, 94, 94);
+}
+
+.text a:hover {
+    color: rgb(79, 69, 63); 
+}
+
+.coloumn3 img {
+    position: relative;
+    margin: auto;
+    width: 600px;
+}
+
+.text2 {
+    position: relative;
+    top: 120px;
+    left: 30px;
+    text-align: center;
+    max-width: 1000px;
+    font-size: 18px;
+}
+
+.text2 p {
+    position: relative;
+    left: 50px;
+    margin-right: 90px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.text2 a {
+    text-decoration: underline;
+    color: rgb(94, 94, 94);
+}
+
+.text2 a:hover {
+    color: rgb(79, 69, 63); 
+}
+
+.section3 {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin: auto;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 19px;
+    color: #333333;
+}
+
+.links {
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.links h2 {
+    text-align: center;
+    font-size: 19px;
+}
+
+.links ul {
+    display: inline-block;
+    list-style-type: disc;
+    font-size: 19px;
+    text-align: left;
+    
+}
+
+.links a {
+    text-decoration: underline;
+    color: rgb(94, 94, 94);
+}
+.links a:hover {
+    color: rgb(79, 69, 63); 
+}
+
+.bullets {
+    margin-right: 85px;
+}
+
+.button {
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    width: fit-content ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+.button a {
+    border-style: solid;
+    color: rgb(135, 114, 103);
+    padding: 17px;
+    border-width: .8px;
+    font-weight: 700;
+}
+
+.button a:hover {
+    background-color: #b6a095;
+    color: #333333;
+}
+
+footer {
+    position: relative;
+    background-color: #333333;
+    height: 231px;
+}
+
+.land p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.p1 {
+    top: 55px;
+    font-weight: 700;
+}
+
+.p2 {
+    top: 75px;
+}
+
+.copyright {
+    position: relative;
+    top: 120px;
+}
+
+.copyright p {
+    font-size: 14px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+.godaddy {
+    position: relative;
+    text-align: end;
+    top: 100px;
+    right: 40px;
+    text-transform: uppercase;
+}
+
+.godaddy p {
+    font-size: 14px;
+    color: darkgray;
+    letter-spacing: 2px;
+}
+
+.godaddy a {
+    color: rgb(182, 160, 149);
+}
+
+.godaddy a:hover {
+    color: rgb(205, 187, 179) ;
+}
